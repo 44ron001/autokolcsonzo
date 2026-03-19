@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Autókölcsönző</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Autókölcsönző</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse centernav" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Kezdőlap</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="autok_listaja.html">Lista</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="uj_auto.html">Új autó</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="kep_modositas.html">Képek</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="table_container_center">
+		<div class="table_container">
+			<p class="fs-2 fw-bolder">Képlink módosítása</p>
+			<form id="kep-modositas-form">
+				<div class="form-group">
+					<label for="valaszto">Autó kiválasztása</label>
+					<select id="valaszto" class="form-select" required>
+						<option value="" selected disabled>Betöltés...</option>
+					</select>
+					<br>
+					<label for="uj-link">Új képlink</label>
+					<input type="text" class="form-control" id="uj-link" placeholder="a.jpg vagy https://.." required>
+				</div>
+				<br>
+				<button type="submit" class="btn btn-primary btn-block">Mentés</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

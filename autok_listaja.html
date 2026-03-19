@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Autókölcsönző</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Autókölcsönző</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse centernav" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Kezdőlap</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="autok_listaja.html">Lista</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="uj_auto.html">Új autó</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="kep_modositas.html">Képek</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="table_container_center">
+		<div class="table_container">
+			<p class="fs-2 fw-bolder">Autók listája</p>
+			<p class="fs-5">Szép kocsik listája</p>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Márka</th>
+						<th scope="col">Modell</th>
+						<th scope="col">Évjárat</th>
+						<th scope="col">Napi díj</th>
+						<th scope="col">Kép</th>
+						<th scope="col">Művelet</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>aaa</td>
+						<td>6aaa10</td>
+						<td>aaaa</td>
+						<td>aaaa</td>
+						<td>kepek.jpg</td>
+						<td><button type="button" class="btn btn-outline-primary">Törlés</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

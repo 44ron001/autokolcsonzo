@@ -1,0 +1,71 @@
+.filler {
+	width: 100%;
+}
+
+.navbar {
+	background-color: rgba(0,0,0,0.0);
+}
+
+.start h1 {
+  margin-top: 0px;
+}
+.start {
+  height: 400px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url('autokolcsonzo_fejlecbe.png');
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.start h1 {
+	color: white !important;
+	font-weight: bold;
+}
+
+.start h2 {
+	color: rgba(255,255,255,0.5);
+	font-size: 16px;
+}
+
+.aaa {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	width: 50%;
+	padding: 30px;
+	margin-right: 200px;
+}
+
+.active {
+	color: rgb(100,100,160);
+	font-weight: bold;
+}
+
+.centernav {
+	display: flex;
+	justify-content: end;
+}
+
+.card_container {
+	width: 80%;
+}
+
+.card_container_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+.table_container  {
+	width: 80%;
+}
+
+
+.table_container_center  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
